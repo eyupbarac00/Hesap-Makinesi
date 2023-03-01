@@ -1,7 +1,6 @@
 import time
 import webbrowser
 
-
 print("Hesap Makinesine Hoş Geldiniz")
 print(" | Toplama = 1 \n | Çıkarma = 2 \n | Çarpma = 3 \n | Bölme = 4")
 islem = int(input())
