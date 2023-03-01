@@ -6,6 +6,7 @@ print(" | Toplama = 1 \n | Çıkarma = 2 \n | Çarpma = 3 \n | Bölme = 4")
 islem = int(input())
 if not 0 < islem < 5:
   print("Geçerli bir sayı girin!")
+  time.sleep(2)
   exit
 
 elif 0 < islem < 5:
